@@ -1,0 +1,413 @@
+Crate {
+    attrs: [],
+    items: [
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: main.rs:2:1: 4:2 (#0),
+            vis: Visibility {
+                kind: Inherited,
+                span: main.rs:2:1: 2:1 (#0),
+                tokens: None,
+            },
+            kind: Fn(
+                Fn {
+                    defaultness: Final,
+                    ident: add_one#0,
+                    generics: Generics {
+                        params: [],
+                        where_clause: WhereClause {
+                            has_where_token: false,
+                            predicates: [],
+                            span: main.rs:2:26: 2:26 (#0),
+                        },
+                        span: main.rs:2:11: 2:11 (#0),
+                    },
+                    sig: FnSig {
+                        header: FnHeader {
+                            safety: Default,
+                            coroutine_kind: None,
+                            constness: No,
+                            ext: None,
+                        },
+                        decl: FnDecl {
+                            inputs: [
+                                Param {
+                                    attrs: [],
+                                    ty: Ty {
+                                        id: NodeId(4294967040),
+                                        kind: Path(
+                                            None,
+                                            Path {
+                                                span: main.rs:2:15: 2:18 (#0),
+                                                segments: [
+                                                    PathSegment {
+                                                        ident: i32#0,
+                                                        id: NodeId(4294967040),
+                                                        args: None,
+                                                    },
+                                                ],
+                                                tokens: None,
+                                            },
+                                        ),
+                                        span: main.rs:2:15: 2:18 (#0),
+                                        tokens: None,
+                                    },
+                                    pat: Pat {
+                                        id: NodeId(4294967040),
+                                        kind: Ident(
+                                            BindingMode(
+                                                No,
+                                                Not,
+                                            ),
+                                            x#0,
+                                            None,
+                                        ),
+                                        span: main.rs:2:12: 2:13 (#0),
+                                        tokens: None,
+                                    },
+                                    id: NodeId(4294967040),
+                                    span: main.rs:2:12: 2:18 (#0),
+                                    is_placeholder: false,
+                                },
+                            ],
+                            output: Ty(
+                                Ty {
+                                    id: NodeId(4294967040),
+                                    kind: Path(
+                                        None,
+                                        Path {
+                                            span: main.rs:2:23: 2:26 (#0),
+                                            segments: [
+                                                PathSegment {
+                                                    ident: i32#0,
+                                                    id: NodeId(4294967040),
+                                                    args: None,
+                                                },
+                                            ],
+                                            tokens: None,
+                                        },
+                                    ),
+                                    span: main.rs:2:23: 2:26 (#0),
+                                    tokens: None,
+                                },
+                            ),
+                        },
+                        span: main.rs:2:1: 2:26 (#0),
+                    },
+                    contract: None,
+                    define_opaque: None,
+                    body: Some(
+                        Block {
+                            stmts: [
+                                Stmt {
+                                    id: NodeId(4294967040),
+                                    kind: Expr(
+                                        Expr {
+                                            id: NodeId(4294967040),
+                                            kind: Binary(
+                                                Spanned {
+                                                    node: Add,
+                                                    span: main.rs:3:5: 3:6 (#0),
+                                                },
+                                                Expr {
+                                                    id: NodeId(4294967040),
+                                                    kind: Path(
+                                                        None,
+                                                        Path {
+                                                            span: main.rs:3:3: 3:4 (#0),
+                                                            segments: [
+                                                                PathSegment {
+                                                                    ident: x#0,
+                                                                    id: NodeId(4294967040),
+                                                                    args: None,
+                                                                },
+                                                            ],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: main.rs:3:3: 3:4 (#0),
+                                                    attrs: [],
+                                                    tokens: None,
+                                                },
+                                                Expr {
+                                                    id: NodeId(4294967040),
+                                                    kind: Lit(
+                                                        Lit {
+                                                            kind: Integer,
+                                                            symbol: "1",
+                                                            suffix: None,
+                                                        },
+                                                    ),
+                                                    span: main.rs:3:7: 3:8 (#0),
+                                                    attrs: [],
+                                                    tokens: None,
+                                                },
+                                            ),
+                                            span: main.rs:3:3: 3:8 (#0),
+                                            attrs: [],
+                                            tokens: None,
+                                        },
+                                    ),
+                                    span: main.rs:3:3: 3:8 (#0),
+                                },
+                            ],
+                            id: NodeId(4294967040),
+                            rules: Default,
+                            span: main.rs:2:27: 4:2 (#0),
+                            tokens: None,
+                        },
+                    ),
+                },
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: main.rs:6:1: 10:2 (#0),
+            vis: Visibility {
+                kind: Inherited,
+                span: main.rs:6:1: 6:1 (#0),
+                tokens: None,
+            },
+            kind: Fn(
+                Fn {
+                    defaultness: Final,
+                    ident: main#0,
+                    generics: Generics {
+                        params: [],
+                        where_clause: WhereClause {
+                            has_where_token: false,
+                            predicates: [],
+                            span: main.rs:6:10: 6:10 (#0),
+                        },
+                        span: main.rs:6:8: 6:8 (#0),
+                    },
+                    sig: FnSig {
+                        header: FnHeader {
+                            safety: Default,
+                            coroutine_kind: None,
+                            constness: No,
+                            ext: None,
+                        },
+                        decl: FnDecl {
+                            inputs: [],
+                            output: Default(
+                                main.rs:6:10: 6:10 (#0),
+                            ),
+                        },
+                        span: main.rs:6:1: 6:10 (#0),
+                    },
+                    contract: None,
+                    define_opaque: None,
+                    body: Some(
+                        Block {
+                            stmts: [
+                                Stmt {
+                                    id: NodeId(4294967040),
+                                    kind: Let(
+                                        Local {
+                                            id: NodeId(4294967040),
+                                            super_: None,
+                                            pat: Pat {
+                                                id: NodeId(4294967040),
+                                                kind: Ident(
+                                                    BindingMode(
+                                                        No,
+                                                        Not,
+                                                    ),
+                                                    number#0,
+                                                    None,
+                                                ),
+                                                span: main.rs:7:7: 7:13 (#0),
+                                                tokens: None,
+                                            },
+                                            ty: None,
+                                            kind: Init(
+                                                Expr {
+                                                    id: NodeId(4294967040),
+                                                    kind: Lit(
+                                                        Lit {
+                                                            kind: Integer,
+                                                            symbol: "10",
+                                                            suffix: None,
+                                                        },
+                                                    ),
+                                                    span: main.rs:7:16: 7:18 (#0),
+                                                    attrs: [],
+                                                    tokens: None,
+                                                },
+                                            ),
+                                            span: main.rs:7:3: 7:19 (#0),
+                                            colon_sp: None,
+                                            attrs: [],
+                                            tokens: None,
+                                        },
+                                    ),
+                                    span: main.rs:7:3: 7:19 (#0),
+                                },
+                                Stmt {
+                                    id: NodeId(4294967040),
+                                    kind: Let(
+                                        Local {
+                                            id: NodeId(4294967040),
+                                            super_: None,
+                                            pat: Pat {
+                                                id: NodeId(4294967040),
+                                                kind: Ident(
+                                                    BindingMode(
+                                                        No,
+                                                        Not,
+                                                    ),
+                                                    result#0,
+                                                    None,
+                                                ),
+                                                span: main.rs:8:7: 8:13 (#0),
+                                                tokens: None,
+                                            },
+                                            ty: None,
+                                            kind: Init(
+                                                Expr {
+                                                    id: NodeId(4294967040),
+                                                    kind: Call(
+                                                        Expr {
+                                                            id: NodeId(4294967040),
+                                                            kind: Path(
+                                                                None,
+                                                                Path {
+                                                                    span: main.rs:8:16: 8:23 (#0),
+                                                                    segments: [
+                                                                        PathSegment {
+                                                                            ident: add_one#0,
+                                                                            id: NodeId(4294967040),
+                                                                            args: None,
+                                                                        },
+                                                                    ],
+                                                                    tokens: None,
+                                                                },
+                                                            ),
+                                                            span: main.rs:8:16: 8:23 (#0),
+                                                            attrs: [],
+                                                            tokens: None,
+                                                        },
+                                                        [
+                                                            Expr {
+                                                                id: NodeId(4294967040),
+                                                                kind: Path(
+                                                                    None,
+                                                                    Path {
+                                                                        span: main.rs:8:24: 8:30 (#0),
+                                                                        segments: [
+                                                                            PathSegment {
+                                                                                ident: number#0,
+                                                                                id: NodeId(4294967040),
+                                                                                args: None,
+                                                                            },
+                                                                        ],
+                                                                        tokens: None,
+                                                                    },
+                                                                ),
+                                                                span: main.rs:8:24: 8:30 (#0),
+                                                                attrs: [],
+                                                                tokens: None,
+                                                            },
+                                                        ],
+                                                    ),
+                                                    span: main.rs:8:16: 8:31 (#0),
+                                                    attrs: [],
+                                                    tokens: None,
+                                                },
+                                            ),
+                                            span: main.rs:8:3: 8:32 (#0),
+                                            colon_sp: None,
+                                            attrs: [],
+                                            tokens: None,
+                                        },
+                                    ),
+                                    span: main.rs:8:3: 8:32 (#0),
+                                },
+                                Stmt {
+                                    id: NodeId(4294967040),
+                                    kind: MacCall(
+                                        MacCallStmt {
+                                            mac: MacCall {
+                                                path: Path {
+                                                    span: main.rs:9:3: 9:10 (#0),
+                                                    segments: [
+                                                        PathSegment {
+                                                            ident: println#0,
+                                                            id: NodeId(4294967040),
+                                                            args: None,
+                                                        },
+                                                    ],
+                                                    tokens: None,
+                                                },
+                                                args: DelimArgs {
+                                                    dspan: DelimSpan {
+                                                        open: main.rs:9:11: 9:12 (#0),
+                                                        close: main.rs:9:39: 9:40 (#0),
+                                                    },
+                                                    delim: Parenthesis,
+                                                    tokens: TokenStream(
+                                                        [
+                                                            Token(
+                                                                Token {
+                                                                    kind: Literal(
+                                                                        Lit {
+                                                                            kind: Str,
+                                                                            symbol: "The result is: {}",
+                                                                            suffix: None,
+                                                                        },
+                                                                    ),
+                                                                    span: main.rs:9:12: 9:31 (#0),
+                                                                },
+                                                                Joint,
+                                                            ),
+                                                            Token(
+                                                                Token {
+                                                                    kind: Comma,
+                                                                    span: main.rs:9:31: 9:32 (#0),
+                                                                },
+                                                                Alone,
+                                                            ),
+                                                            Token(
+                                                                Token {
+                                                                    kind: Ident(
+                                                                        "result",
+                                                                        No,
+                                                                    ),
+                                                                    span: main.rs:9:33: 9:39 (#0),
+                                                                },
+                                                                JointHidden,
+                                                            ),
+                                                        ],
+                                                    ),
+                                                },
+                                            },
+                                            style: Semicolon,
+                                            attrs: [],
+                                            tokens: None,
+                                        },
+                                    ),
+                                    span: main.rs:9:3: 9:41 (#0),
+                                },
+                            ],
+                            id: NodeId(4294967040),
+                            rules: Default,
+                            span: main.rs:6:11: 10:2 (#0),
+                            tokens: None,
+                        },
+                    ),
+                },
+            ),
+            tokens: None,
+        },
+    ],
+    spans: ModSpans {
+        inner_span: main.rs:2:1: 10:2 (#0),
+        inject_use_span: main.rs:2:1: 2:1 (#0),
+    },
+    id: NodeId(4294967040),
+    is_placeholder: false,
+}
