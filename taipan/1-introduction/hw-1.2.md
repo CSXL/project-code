@@ -4,8 +4,6 @@ author: "Adam Blumenfeld"
 date: "June 19th, 2025"
 ---
 
-# HW 1.2 - All Python Datatypes
-
 ## Instructions
 
 1. **Read the [Python Data Types](https://docs.python.org/3/library/stdtypes.html) documentation** to familiarize yourself with the different data types available in Python.
